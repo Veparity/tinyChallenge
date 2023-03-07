@@ -16,7 +16,7 @@ body{
     line-height: 30px;
     font-weight: 300;
     margin: 0;
-    display: block;
+    display: grid;
 
 }
 h1{
@@ -133,6 +133,92 @@ img{
     align-items: center;
 }
 
+.nav-dropdown{
+    display: block;
+}
+
+.a-dropdown{
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 900;
+
+}
+
+.dropdown-toggle{
+    display: flex;
+    margin-right: 32px;
+    padding: 12px 16px 12px 0px;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+
+}
+
+.a-dropdown-toggle{
+    user-select: none;
+    cursor: pointer;
+}
+
+.a-dropdown-toggle{
+    position:relative;
+    vertical-align: top;
+    text-decoration: none;
+    text-align: left;
+    margin-left: auto;
+    white-space: nowrap;
+}
+
+.dropdownicon{
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    display: block;
+    margin-top: auto;
+    margin-right: 0px;
+    margin-bottom: auto;
+    padding-bottom: 4px;
+}
+
+.button{
+    position: relative;
+    display: flex;
+    padding: 14px 20px 12px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: hsla(0, 0%, 100%, 0.6);
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.button.navbutton{
+    align-items: right;
+    text-align: end;
+}
+.a-inline-block{
+    max-width: 100%;
+}
+
+
+
+.button:hover{
+    border-color: #fff;
+    background-color: #fff;
+    color: #1a21ff;
+}
 .heromain{
     display: flex;
     height: 50vh;
@@ -185,4 +271,94 @@ img{
     overflow: visible;
     background: url(https://assets.website-files.com/5f10771cbfea70224f1ce526/5f135815ce36dfb754e61f80_Vector%201.svg) center center no-repeat;
     background-size: contain;
+}
+
+.wrap{
+    display: flex;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+}
+
+.wrap.sellingwrap {
+    max-width: 1246px;
+    padding-top: 56px;
+    padding-bottom: 64px;
+
+
+}
+
+.sellingtext{
+    max-width: 940px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+
+}
+
+.sellingimage{
+    padding-right: 16px;
+}
+
+.sellingimage.sellingimagefull{
+    position: absolute;
+    left: -253px;
+    top: -98px;
+    right: auto;
+    bottom: auto;
+    width: 1190px;
+    display: grid;
+}
+
+.sellingleft{
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    margin-bottom: 100px;
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+    grid-template-rows: auto;
+}
+
+.a-selling-left{
+    display:grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.col1{
+    align-self: center;
+    grid-column-end: 3;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-row-start: 1;
+}
+
+.sellingcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bussinesswrap{
+    position: relative;
+    margin-top: 48px;
+}
+.sellingbody{
+    margin-bottom: 32px;
+}
+
+.testimonialwrap{
+    margin-bottom: 40px;
+    align-self: center;
+    text-align: center;
+}
+.testimonialheadline{
+    margin-top: 0px;
+    margin-bottom: 32px;
+    font-size: 44px;
+    line-height: 52px;
+    font-weight: 700;
 }
