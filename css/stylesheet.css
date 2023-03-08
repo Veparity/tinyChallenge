@@ -53,13 +53,17 @@ a {
   text-decoration: underline;
 }
 
-.navbar {
+.nav-bar {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
   justify-content: space-between;
   align-items: center;
   background-color: transparent;
+}
+
+.dropdown-toggle::after{
+    display: none;
 }
 
 .a-nav {
