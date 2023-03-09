@@ -782,7 +782,7 @@ margin-left: 7px;
 
 .returnlink{
     text-decoration: none;
-    
+
 }
 
 .footerhead{
@@ -964,6 +964,27 @@ input::placeholder{
   padding-bottom: 108px;
 }
 
+.carocircle{
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    left: 250%;
+    right: auto;
+    bottom: -1%;
+    font-size: 45px;
+}
+
+.carocircle1{
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    left: auto;
+    right: 250%;
+    bottom: -1%;
+    font-size: 45px;
+    
+
+}
 .sliderfade{
     position: absolute;
     z-index: 5;
