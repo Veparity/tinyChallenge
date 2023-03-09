@@ -837,6 +837,7 @@ p.body2{
     display: block;
     width: 100%;
     padding: 8px 12px;
+    vertical-align: middle;
 
 }
 
@@ -846,13 +847,42 @@ p.body2{
     padding-top: 20px;
     padding-bottom: 16px;
     padding-left: 0px;
-    border: 0px none transparent !important;
+    border: 1px none transparent !important;
     background-color: transparent;
     font-family: Objectsans, sans-serif;
     color: #fff;
     font-size: 22px;
     line-height: 32px;
     font-weight: 700;
+}
+
+input::placeholder{
+    color:#fff;
+    opacity: 80%;
+    
+}
+
+.submitbutton{
+    width: 34px;
+    height: 64px;
+    margin-left: 32px;
+    padding-right: 17px;
+    padding-left: 17px;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.w-button {
+    display: inline-block;
+    padding: 9px 15px;
+    background-color: #3898EC;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
 }
 
 .testwrap{
@@ -935,3 +965,11 @@ p.body2{
     background-image: linear-gradient(270deg, transparent, #1a21ff);
 }
 
+form::after{
+    border: none;
+}
+
+input{
+    color: #fff;
+    border: none;
+}
