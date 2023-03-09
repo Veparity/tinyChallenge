@@ -762,7 +762,7 @@ p.body2{
     font-weight: 400;
 }
 
-.button.bluebutton{
+.bluebutton{
     border-color: #1a21ff;
     color: #1a21ff;
 }
@@ -773,6 +773,11 @@ p.body2{
     margin-left: auto;
     padding-top: 0px;
     padding-bottom: 120px;
+}
+
+.leadicon{
+font-size: larger;
+margin-left: 7px;
 }
 
 .footerhead{
