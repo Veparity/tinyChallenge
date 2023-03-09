@@ -17,12 +17,13 @@ body {
   font-weight: 300;
   margin: 0;
   display: grid;
-  
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   
 }
 
 body::-webkit-scrollbar{
-    display: none;
+    display: none !important;
 }
 
 h1 {
