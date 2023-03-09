@@ -346,7 +346,7 @@ img {
 }
 
 .testimonialwrap {
-  margin-bottom: 40px;
+  
   align-self: center;
   text-align: center;
 }
@@ -686,6 +686,9 @@ ol {
     line-height: 28px;
     font-weight: 700;
 }
+p.body2{
+    font-size: 15px;
+}
 
 .body4{
     margin-top: 8px;
@@ -843,12 +846,92 @@ ol {
     padding-top: 20px;
     padding-bottom: 16px;
     padding-left: 0px;
-    border: 1px none transparent;
+    border: 0px none transparent !important;
     background-color: transparent;
     font-family: Objectsans, sans-serif;
     color: #fff;
     font-size: 22px;
     line-height: 32px;
     font-weight: 700;
+}
+
+.testwrap{
+    
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+   
+}
+
+.write{
+    padding-top: 31px;
+}
+
+.testpic{
+    width: 280px;
+    height: 100%;
+    align-self: stretch;
+    flex: 0 0 auto;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+}
+
+.name{
+    font-weight: 700 !important;
+    font-size: 15px;
+}
+.testcontent{
+    width: 100%;
+    padding: 60px 48px;
+    align-self: center;
+    justify-content: stretch;
+}
+
+.testimonial{
+    position: relative;
+    overflow: hidden;
+    max-height: 588px;
+    margin-right: 16px;
+    border-radius: 9px 8px 8px 9px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%), 0 2px 8px 0 rgb(0 0 0 / 8%);
+    color: #0e0066;
+}
+
+.carosection{
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.carowrap{
+      width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: column;
+  max-width: 1246px;
+  padding-top: 108px;
+  padding-bottom: 108px;
+}
+
+.sliderfade{
+    position: absolute;
+    z-index: 5;
+    width: 100px;
+    height: 100%;
+    left: auto;
+    right: 17%;
+    opacity: 90%;
+    background-image: linear-gradient(90deg, transparent, #1a21ff);
+
+}
+
+.leftfade{
+    left: 20%;
+    top: 0%;
+    right: auto;
+    bottom: 0%;
+    background-image: linear-gradient(270deg, transparent, #1a21ff);
 }
 
